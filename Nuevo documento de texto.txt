@@ -1,0 +1,49 @@
+JAVA SCRIPT
+
+TIPOS DE DATO
+
+String 
+Number 
+Undefined 
+Null
+Boolean --> True or false 
+
+
+
+var nombre; // Declaracion de variable
+
+nombre = "Mario"; // Guardamos un "valor" de tipo "String" dentro de la variable
+
+nombre = 2; // Tipo de dato "Number"  
+
+var nombre; // "Undefined", indica que no tiene valor, no se le realizo la asignacion correspondiente 
+
+Un valor del tipo NULL, es una variable a la cual se le quito el valor "Undefined" =/= "Null"
+
+
+LOWER CAMELCASE = Convencion para evitar la "Sensitive keY", es decir la diferencia entre mayusculas y minusculas 
+
+COMENTARIOS 
+
+// Para abrir 
+
+/* abro el enunciado */ cierro el enunciado 
+
+CTRL+MAYUS+J : Abrimos la consola, sirve para mostrar los errores 
+
+
+En GOOGLE
+
+alert(""); Funcion que muestra dato 
+prompt(""); Funcion que permite ingreso de datos 
+confirm(""); FUncion que muestra dos mensajes 
+getElementById(""); Funcion que me permite tomar un dato 
+
+
+nombre=prompt("Ingrese su nombre"); // Nombre es la variable donde se va a guardar el dato 
+alert(nombre); // esta vez sin comillas para que muestre la variable y no tome un tipo de valor STRING (TEXTO)
+confirm("Desea continuar?");
+document.getElementById("elnombre").value; 
+
+document deja manipular el HTML a traves de javascript en el navegador 
+alert= document.(getElementById("elnombre").value);
