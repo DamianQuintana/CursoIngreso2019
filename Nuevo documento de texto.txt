@@ -47,3 +47,17 @@ document.getElementById("elnombre").value;
 
 document deja manipular el HTML a traves de javascript en el navegador 
 alert= document.(getElementById("elnombre").value);
+
+
+-------------------------
+
+
+nombre = document.getElementById("elNombre").value; 
+
+
+document.getElementById("elNombre").value; = nombre; //Se le asigna el valor de la derecha a la variable de la izquierda 
+
+
+
+Entrada (Prompt, Por ID(Leyendo))
+Salida (Alert, POR ID(asignacion))
